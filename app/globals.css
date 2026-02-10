@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+select {
+  -webkit-appearance: none; /* Chrome, Safari, Edge */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;         /* Padrão */
+}
