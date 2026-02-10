@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 // --- Interfaces ---
 interface Store {
@@ -280,6 +281,7 @@ export default function Home() {
         )}
 
       </div>
+      <Analytics />
     </main>
   );
 }
